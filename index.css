@@ -1,0 +1,68 @@
+body {
+    background-image: url("pink-sparkles.jpg");
+    background-size: cover;
+    font-family: "Poppins", sans-serif;
+    color:purple;
+    font-weight: bold;
+    text-align: center;
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0; 
+
+}
+
+#content{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border:5px solid #CEC2FF;
+    border-radius:5%;
+    background-color: white;
+    padding:100px 100px;
+    max-width:500px;
+    }
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size:60px;
+}
+
+h2 {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin: 5px 0;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+
+}
+
+#save-btn {
+    background: #A32BB6;
+}
+
+#increment-btn {
+    background: #FF0A74;
+}
+
